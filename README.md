@@ -1,6 +1,40 @@
 # Welcome to Remix!
 
-- 📖 [Remix docs](https://remix.run/docs)
+- # 🛠️ Remix Form Builder
+
+A fully functional, beautiful form builder built with *Remix, **React, and **Tailwind CSS*. This app allows users to visually build forms using drag-and-drop, customize fields, preview them in different device modes, generate shareable public form links, collect submissions — all in a sleek and intuitive UI.
+
+---
+
+## ✨ Features
+
+- ⚡ Drag-and-drop field reordering
+- 🧱 Add fields: text, email, number, textarea
+- ✏️ Edit field properties (label, placeholder, validation)
+- 📱 Real-time responsive preview: Desktop, Tablet, Mobile Enable ReadOnly mode- 💾 LocalStorage-powered Form Save FormPreview in LocalStorage and Create Contact Templates
+
+- 🔗 Shareable form links with unique Form ID
+- 🧾 Save and view form submissions
+- ✅ Client-side validation (required, min/max length, pattern)
+
+---
+
+## 📁 Project Structure
+app/
+├── components/ # UI components like FieldList, FieldEditor, FormPreview
+├── routes/ # Remix routes (index.tsx, $formId.tsx, etc.)
+├── styles/ # Tailwind CSS setup
+├── utils/ # LocalStorage and helper utilities
+public/
+├── favicon.svg
+tailwind.config.js
+remix.config.js
+tsconfig.json
+package.json
+
+yaml
+Copy
+Edit
 
 ## Development
 
