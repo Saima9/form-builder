@@ -45,7 +45,7 @@ Edit
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/remix-form-builder.git
+git clone https://github.com/Saima9/form-builder
 cd form-builder
 ```
 
