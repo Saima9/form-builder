@@ -2,7 +2,7 @@
 
 - # 🛠️ Remix Form Builder
 
-A fully functional, beautiful form builder built with *Remix, **React, and **Tailwind CSS*. This app allows users to visually build forms using drag-and-drop, customize fields, preview them in different device modes, generate shareable public form links, collect submissions — all in a sleek and intuitive UI.
+A fully functional, beautiful form builder built with **Remix**, **React**, and **Tailwind CSS**. This app allows users to visually build forms using drag-and-drop, customize fields, preview them in different device modes, generate shareable public form links, collect submissions — all in a sleek and intuitive UI.
 
 ---
 
@@ -20,21 +20,34 @@ A fully functional, beautiful form builder built with *Remix, **React, and **Tai
 ---
 
 ## 📁 Project Structure
-app/
-├── components/ # UI components like FieldList, FieldEditor, FormPreview
-├── routes/ # Remix routes (index.tsx, $formId.tsx, etc.)
-├── styles/ # Tailwind CSS setup
-├── utils/ # LocalStorage and helper utilities
-public/
-├── favicon.svg
-tailwind.config.js
-remix.config.js
-tsconfig.json
-package.json
+app/  
+├── components/ # UI components like FieldList, FieldEditor, FormPreview  
+├── routes/ # Remix routes (index.tsx, etc.)  
+├── styles/ # Tailwind CSS setup  
+├── utils/ # LocalStorage and helper utilities  
+public/  
+├── favicon.svg  
+tailwind.config.js  
+remix.config.js  
+tsconfig.json  
+package.json  
 
-yaml
-Copy
-Edit
+yaml  
+Copy  
+Edit  
+
+---
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/yourusername/remix-form-builder.git
+cd form-builder
+```
 
 ## Development
 
@@ -72,3 +85,35 @@ Make sure to deploy the output of `npm run build`
 ## Styling
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+
+## 🧪 Usage Guide  
+➕ Build Your Form  
+Use the Field List to add fields to your form.
+
+Click on a field in the preview to edit it.
+
+Drag and drop fields to reorder them.
+
+## 🔍 Preview Responsively
+Switch between Desktop, Tablet, and Mobile preview modes.
+
+Toggle between interactive and read-only mode.
+
+## 📎 Share Your Form
+Click “Generate Shareable Link” to get a public URL with a Form ID.
+
+Share this URL so users can fill out your form.
+
+## 📨 View Submissions
+When someone fills your form, the response is saved locally.
+
+Navigate to /submissions/[formId] to view all form responses.
+
+## 📦 Tech Stack
+Remix  
+
+React  
+
+Tailwind CSS  
+
+LocalStorage (for temporary form & submission storage)
